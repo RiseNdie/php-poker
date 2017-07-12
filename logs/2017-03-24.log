@@ -1,0 +1,16 @@
+ERROR - 2017-03-24 13:39:49 - ErrorException: Undefined index: player_3 in /vagrant/dev/games/App/Libraries/PTHE.php:1137
+Stack trace:
+#0 /vagrant/dev/games/App/Libraries/PTHE.php(1137): Yee\Yee::handleErrors(8, 'Undefined index...', '/vagrant/dev/ga...', 1137, Array)
+#1 /vagrant/dev/games/App/Libraries/PTHE.php(235): App\Libraries\PTHE->get_all_player_card(3)
+#2 /vagrant/dev/games/App/Libraries/PTHE.php(180): App\Libraries\PTHE->evaluate_points(3)
+#3 /vagrant/dev/games/App/Controllers/PokerController.php(15): App\Libraries\PTHE->__construct(3)
+#4 [internal function]: PokerController->index()
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#6 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#10 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#11 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#12 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#13 {main}

@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "cyka",
+  "main": "example.js",
+  "scripts": {
+    "test": "cyka"
+  },
+  "keywords": [
+    "cyka",
+    "blyat"
+  ],
+  "author": "Ponkata",
+  "license": "ISC"
+}

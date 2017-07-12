@@ -1,0 +1,164 @@
+ERROR - 2017-04-10 07:49:42 - ErrorException: uasort() expects parameter 1 to be array, object given in /vagrant/dev/games/App/Controllers/PokerController.php:30
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'uasort() expect...', '/vagrant/dev/ga...', 30, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(30): uasort(Object(App\Libraries\PTHE), Object(Closure))
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 08:12:00 - ErrorException: array_multisort(): Array sizes are inconsistent in /vagrant/dev/games/App/Controllers/PokerController.php:31
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'array_multisort...', '/vagrant/dev/ga...', 31, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(31): array_multisort(Array, 3, Array)
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 08:12:45 - ErrorException: Illegal string offset 'points' in /vagrant/dev/games/App/Controllers/PokerController.php:32
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(32): Yee\Yee::handleErrors(2, 'Illegal string ...', '/vagrant/dev/ga...', 32, Array)
+#1 [internal function]: PokerController->{closure}(Array, 'free')
+#2 /vagrant/dev/games/App/Controllers/PokerController.php(33): uasort(Array, Object(Closure))
+#3 [internal function]: PokerController->index()
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#5 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#12 {main}
+ERROR - 2017-04-10 08:16:18 - ErrorException: array_multisort(): Array sizes are inconsistent in /vagrant/dev/games/App/Controllers/PokerController.php:42
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'array_multisort...', '/vagrant/dev/ga...', 42, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(42): array_multisort(Array, 3, Array)
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 08:16:18 - ErrorException: array_multisort(): Array sizes are inconsistent in /vagrant/dev/games/App/Controllers/PokerController.php:42
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'array_multisort...', '/vagrant/dev/ga...', 42, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(42): array_multisort(Array, 3, Array)
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 08:18:04 - ErrorException: array_multisort(): Argument #1 is expected to be an array or a sort flag in /vagrant/dev/games/App/Controllers/PokerController.php:42
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'array_multisort...', '/vagrant/dev/ga...', 42, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(42): array_multisort(NULL, 3, Array)
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 09:09:18 - ErrorException: Undefined offset: 0 in /vagrant/dev/games/App/Controllers/PokerController.php:57
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(57): Yee\Yee::handleErrors(8, 'Undefined offse...', '/vagrant/dev/ga...', 57, Array)
+#1 [internal function]: PokerController->index()
+#2 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#9 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#10 {main}
+ERROR - 2017-04-10 09:09:35 - ErrorException: Undefined offset: 0 in /vagrant/dev/games/App/Controllers/PokerController.php:57
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(57): Yee\Yee::handleErrors(8, 'Undefined offse...', '/vagrant/dev/ga...', 57, Array)
+#1 [internal function]: PokerController->index()
+#2 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#9 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#10 {main}
+ERROR - 2017-04-10 09:09:37 - ErrorException: Undefined offset: 0 in /vagrant/dev/games/App/Controllers/PokerController.php:57
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(57): Yee\Yee::handleErrors(8, 'Undefined offse...', '/vagrant/dev/ga...', 57, Array)
+#1 [internal function]: PokerController->index()
+#2 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#9 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#10 {main}
+ERROR - 2017-04-10 09:13:04 - ErrorException: var_dump() expects at least 1 parameter, 0 given in /vagrant/dev/games/App/Controllers/PokerController.php:67
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'var_dump() expe...', '/vagrant/dev/ga...', 67, Array)
+#1 /vagrant/dev/games/App/Controllers/PokerController.php(67): var_dump()
+#2 [internal function]: PokerController->index()
+#3 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#11 {main}
+ERROR - 2017-04-10 11:34:06 - ErrorException: Illegal string offset 'points' in /vagrant/dev/games/App/Controllers/PokerController.php:65
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(65): Yee\Yee::handleErrors(2, 'Illegal string ...', '/vagrant/dev/ga...', 65, Array)
+#1 [internal function]: PokerController->index()
+#2 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#9 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#10 {main}
+ERROR - 2017-04-10 11:43:05 - ErrorException: Illegal string offset 'points' in /vagrant/dev/games/App/Controllers/PokerController.php:65
+Stack trace:
+#0 /vagrant/dev/games/App/Controllers/PokerController.php(65): Yee\Yee::handleErrors(2, 'Illegal string ...', '/vagrant/dev/ga...', 65, Array)
+#1 [internal function]: PokerController->index()
+#2 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#5 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#9 /vagrant/dev/games/index.php(47): Yee\Yee->execute()
+#10 {main}

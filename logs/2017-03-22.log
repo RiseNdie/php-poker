@@ -1,0 +1,15 @@
+ERROR - 2017-03-22 14:17:23 - ErrorException: Undefined offset: 52 in /vagrant/dev/games/App/Libraries/PTHE.php:72
+Stack trace:
+#0 /vagrant/dev/games/App/Libraries/PTHE.php(72): Yee\Yee::handleErrors(8, 'Undefined offse...', '/vagrant/dev/ga...', 72, Array)
+#1 /vagrant/dev/games/App/Libraries/PTHE.php(174): App\Libraries\PokerDeck->get_players_hands(30, 2)
+#2 /vagrant/dev/games/App/Controllers/PokerController.php(15): App\Libraries\PTHE->__construct(30)
+#3 [internal function]: PokerController->index()
+#4 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#5 [internal function]: Yee\Managers\Controller\Controller::__callStatic('index', Array)
+#6 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Route.php(462): call_user_func_array('PokerController...', Array)
+#7 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /vagrant/dev/games/vendor/yeephp/yeephp/Yee/Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 /vagrant/dev/games/index.php(46): Yee\Yee->execute()
+#12 {main}

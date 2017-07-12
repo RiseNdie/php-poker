@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="http://games.igaming.loc/css/poker.css">
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://games.igaming.loc/js/poker.js"></script>
+</head>
+
+<body style="background: gray">
+
+<div id="info">
+    <span> Your chips:
+        <div id="chips"></div>
+    </span>
+    <br>
+    <span> Your bet:
+        <div id="bet"></div>
+    </span>
+    <br>
+    <span> Highest bet:
+        <div id="high_bet"></div>
+    </span>
+    <br>
+    <span> Dealer is:
+        <div id="dealer"></div>
+    </span>
+    <br>
+    <span> You are:
+        <div id="identity"></div>
+    </span>
+    <br>
+    <span> Pot:
+        <div id="pot"></div>
+    </span>
+    <br>
+    <span> Current player turn:
+        <div id="current"></div>
+    </span>
+</div>
+
+<div id="poker">
+
+    <div id="flop" class="cards"></div>
+    <div id="turn" class="cards"></div>
+    <div id="river" class="cards"></div>
+
+    <div id="player_1" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="player_2" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="player_3" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="player_4" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="player_5" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="player_6" class="player">
+        <input type="button" value="SIT" class="spots" style="display:none">
+    </div>
+
+    <div id="deck"></div>
+</div>
+
+<div id="controls" style="visibility: hidden;">
+    <input id="call" type="button" class="click" value="Call" onclick="Clicked('call_check')">
+    <input id="allin" type="button" class="click" value="All in" onclick="Clicked('allin')">
+    <input id="fold" type="button" class="click" value="Fold" onclick="Clicked('fold')">
+    <input id="raise" type="button" class="click" value="Raise" onclick="Clicked('raise',$('#amount').val())">
+    <input id="amount" class="box" type="text">
+</div>
+
+
+</body>
+
+</html>
